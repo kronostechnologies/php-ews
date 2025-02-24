@@ -50,4 +50,13 @@ class ArrayOfTransitionsType extends ArrayType
      * @var \jamesiarmes\PhpEws\Type\RecurringDayTransitionType[]
      */
     public $RecurringDayTransition = array();
+
+    /**
+     * A time zone transition.
+     *
+     * @since Exchange 2010
+     *
+     * @var \jamesiarmes\PhpEws\Type\TransitionType[]
+     */
+    public $Transition = array();
 }
