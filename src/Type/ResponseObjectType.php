@@ -17,7 +17,7 @@ abstract class ResponseObjectType extends ResponseObjectCoreType
      *
      * @since Exchange 2007
      *
-     * @var string
+     * @var \jamesiarmes\PhpEws\Type\ItemIdType
      */
     public $ReferenceItemId;
 }
