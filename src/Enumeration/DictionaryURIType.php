@@ -57,7 +57,7 @@ class DictionaryURIType extends Enumeration
      *
      * @var string
      */
-    const CONTACTS_PHYSICAL_ADDRESS_COUNTRY = 'contacts:PhysicalAddress:Country';
+    const CONTACTS_PHYSICAL_ADDRESS_COUNTRY_OR_REGION = 'contacts:PhysicalAddress:CountryOrRegion';
 
     /**
      * Represents the postal code of a contact.
